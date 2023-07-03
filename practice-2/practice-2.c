@@ -20,7 +20,7 @@ int main() {
     printf("Input quantity of numbers(2<= p <=20): ");
     scanf("%d", &p);
     // Перевірка чи задовільняють данні умові
-    if (p <= 2 || p >= 20) {
+    if (p < 2 || p > 20) {
         printf("Wrong numbers");
         return 0;
     }
