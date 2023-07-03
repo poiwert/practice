@@ -11,7 +11,7 @@ void main(){
     scanf("%d",&t2);
     printf("Input data about third guest (not more than 10000)\n");
     scanf("%d",&t3);
-    // Перевірка чи задовільняють данні умову
+    // Перевірка чи задовільняють данні умові
     if (t1>10000||t2>10000||t3>10000)
     {
         printf("Wrong numbers");
