@@ -1,2 +1,2 @@
 # practice
-Практика з програмування
+Programming practice
