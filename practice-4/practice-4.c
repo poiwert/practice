@@ -9,7 +9,7 @@ void main() {
     printf("Input natural number - ");
     scanf("%d",&n);
     // Перевірка чи задовільняють данні умові(натуральних чисел)
-    if (n<=0||n>149)
+    if (n<=1||n>=150)
     {
         printf("Wrong numbers\n");
         return;
